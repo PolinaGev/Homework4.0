@@ -3,7 +3,7 @@
 int [] massiv = new int[8];
 for (int i = 0; i < massiv.Length; i++)
 {
-    massiv[i] = new Random().Next(10);
+    massiv[i] = new Random().Next(100);
 }
 return massiv;
 }
